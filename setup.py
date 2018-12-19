@@ -28,6 +28,9 @@ setup(
         'Mopidy >= 1.0',
         'Pykka >= 1.1',
     ],
+    dependency_links=[
+        'git+https://github.com/amjadsaadeh/amazonmusic.git',
+    ],
     entry_points={
         'mopidy.ext': [
             'amazonmusic = mopidy_amazonmusic:Extension',

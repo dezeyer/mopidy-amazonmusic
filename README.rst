@@ -35,7 +35,8 @@ Before starting Mopidy, you must add configuration for
 Mopidy-AmazonMusic to your Mopidy configuration file::
 
     [amazonmusic]
-    # TODO: Add example of extension config
+    username = <your amazon username>
+    password = <your amazon password>
 
 
 Project resources
