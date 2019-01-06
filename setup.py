@@ -29,7 +29,7 @@ setup(
         'Pykka >= 1.1',
     ],
     dependency_links=[
-        'git+https://github.com/amjadsaadeh/amazonmusic.git',
+        'git+https://github.com/amjadsaadeh/amazon-music.git',
     ],
     entry_points={
         'mopidy.ext': [
